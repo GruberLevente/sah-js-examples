@@ -5,6 +5,7 @@ $('p').css('border', '1px solid red');
 $('p').css('padding', '10px');
 $('h2').toggleClass('blue');
 $('h2').toggleClass('blue');
+$('main').append('<p>A p is appended in the main</p>');
 
 console.log('Script file is loaded');
 
